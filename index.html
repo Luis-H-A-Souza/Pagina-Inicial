@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSC Cruises</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      src="./img/cruzeiro-principal.png"
+      alt="Um belo cruzeiro em alto mar"
+      class="cruzeiro-wallpaper"
+      id="home"
+    />
+    <div class="gradiente-azul"></div>
+    <header>
+      <div class="left-header">
+        <a href="#home"
+          ><img src="img/MSC-logo.png" alt="MSC Cruises logo"
+        /></a>
+      </div>
+      <div class="right-header">
+        <p>BRASIL 011 - 3878-8135</p>
+        <nav>
+          <ul>
+            <li><a href="#home">ENCONTRE SEU CRUZEIRO</a></li>
+            <li><a href="#ofertas">OFERTAS</a></li>
+            <li><a href="#navios">NOSSOS NAVIOS</a></li>
+            <li><a href="#destinos">DESTINOS</a></li>
+            <li><a href="#">GERENCIAR</a></li>
+            <li><a href="#formulario">MEU CRUZEIRO</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="cta-promo" id="ofertas">
+      <div>
+        <p class="paragrafo-superior">MENU DE PROMOÇÕES</p>
+        <p class="paragrafo-inferior">AMÉRICA DO SUL</p>
+        <a href="https://github.com/Luis-H-A-Souza" target="_blank"
+          ><button class="compre-agora">COMPRE AGORA</button></a
+        >
+      </div>
+    </section>
+
+    <section class="formulario" id="formulario">
+      <p>Reserva Agora</p>
+      <form>
+        <div class="menu-sup">
+          <div class="dados-formulario">
+            <label for="destino">Destino</label>
+            <input list="destino" placeholder="Selecionar..." />
+            <datalist id="destino">
+              <option value="Meu currículo"></option>
+            </datalist>
+          </div>
+          <div class="dados-formulario">
+            <label for="porto-de-embarque">Porto de Embarque</label>
+            <input list="porto-de-embarque" placeholder="Selecionar..." />
+            <datalist id="porto-de-embarque">
+              <option value="Meu GitHub"></option>
+            </datalist>
+          </div>
+          <div class="dados-formulario">
+            <label for="data-de-embarque">Data de Embarque</label>
+            <input type="date" />
+          </div>
+        </div>
+        <div class="menu-inf">
+          <div class="dados-formulario">
+            <label for="passageiros">Passageiros</label>
+            <input list="passageiros" placeholder="Selecionar..." />
+            <datalist id="passageiros">
+              <option value="Você aí"></option>
+            </datalist>
+          </div>
+          <a href="https://github.com/Luis-H-A-Souza" target="_blank"
+            ><button>BUSCAR</button></a
+          >
+        </div>
+      </form>
+    </section>
+    <section class="destaques" id="destinos">
+      <p class="destaques-title">NOSSOS DESTAQUES</p>
+      <div class="cards-menu">
+        <div class="cards-destaque">
+          <img src="./img/Grand-Voyage.png" alt="Uma bela vista de Veneza" />
+          <p class="card-title">MSC<br />Grand Voyages</p>
+          <p class="info-preco">A partir de*</p>
+          <p class="card-preco">R$ 7.500,00/pessoa</p>
+          <p class="card-info">
+            MSC Seaview<br />Saindo de: Barcelona<br />Porto de desembarque: Rio
+            de Janeiro
+          </p>
+        </div>
+        <div class="cards-destaque">
+          <img src="./img/Dubai.png" alt="Uma bela vista das praias de Dubai" />
+          <p class="card-title">MSC<br />Dubai, Abu Dhabi & Qatar</p>
+          <p class="info-preco">A partir de*</p>
+          <p class="card-preco">R$ 9.500,00/pessoa</p>
+          <p class="card-info">
+            MSC Euribia<br />Saindo de: Dubai<br />Porto de desembarque: Dubai
+          </p>
+        </div>
+        <div class="cards-destaque">
+          <img src="./img/Caribe.png" alt="" />
+          <p class="card-title">MSC<br />CARIBE SEM VISTO</p>
+          <p class="info-preco">A partir de*</p>
+          <p class="card-preco">R$ 5.500,00/pessoa</p>
+          <p class="card-info">
+            Partindo de<br />Miami, FloridaLabadee, Haiti<br />A bordo
+            Independence of the Seas
+          </p>
+        </div>
+      </div>
+    </section>
+    <img
+      src="./img/cruzeiro-secundario.png"
+      alt="Um belo cruzeiro em alto mar"
+      class="cruzeiro-wallpaper"
+    />
+    <section class="navios" id="navios">
+      <p class="navios-title">NOSSOS NAVIOS</p>
+      <div class="exposicao-navios">
+        <div class="navios-cards">
+          <img src="./img/navio-armonia.png" alt="cruzeiro armonia" />
+          <p>MSC ARMONIA</p>
+        </div>
+        <div class="navios-cards">
+          <img src="./img/navio-belissima.png" alt="cruzeiro bellissima" />
+          <p>MSC BELLISSIMA</p>
+        </div>
+        <div class="navios-cards">
+          <img src="./img/navio-euribia.png" alt="cruzeiro euribia" />
+          <p>MSC EURIBIA</p>
+        </div>
+        <div class="navios-cards">
+          <img src="./img/navio-meraviglia.png" alt="cruzeiro meraviglia" />
+          <p>MSC MERAVIGLIA</p>
+        </div>
+        <div class="navios-cards">
+          <img src="./img/navio-opera.png" alt="cruzeiro opera" />
+          <p>MSC OPERA</p>
+        </div>
+        <div class="navios-cards">
+          <img src="./img/navio-preziosa.png" alt="cruzeiro preziosa" />
+          <p>MSC PREZIOSA</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2024 MSC CRUISES S.A. TODOS OS DIREITOS RESERVADOS.</p>
+    </footer>
+  </body>
+</html>
