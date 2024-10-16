@@ -4,4 +4,5 @@
   Durante o projeto me deparei com conceitos que não conhecia, como forms ou z-index, os quais pude aprender através da necessidade de utilizá-los, no geral, essa atividade ajudou a me capacitar ainda mais para futuros projetos
   
 Site: https://luis-h-a-souza.github.io/Pagina-Inicial/
+
 Referência: https://github.com/Luis-H-A-Souza/Pagina-Inicial/blob/main/img/desired-outcome.png
